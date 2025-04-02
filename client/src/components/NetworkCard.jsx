@@ -15,14 +15,13 @@ const NetworkCard = ({ network }) => {
       case "at":
         return (
           <span className="text-5xl">
-            <span className="text-[#FE5000] font-bold">a</span>
+            <span className="text-[#E62B1E] font-bold">a</span>
             <span className="text-[#0044AA] font-bold">t</span>
           </span>
         );
       case "telecell":
         return (
           <div className="flex items-center">
-            <span className="text-5xl text-[#E62B1E] font-bold">t</span>
             <span className="text-2xl text-[#E62B1E] font-bold">telecell</span>
           </div>
         );
