@@ -9,7 +9,6 @@ const Navbar = () => {
             <Link href="/">
               <a className="flex-shrink-0 flex items-center cursor-pointer">
                 <div className="h-8 w-8 bg-black rounded-full"></div>
-                <span className="ml-2 text-xl font-bold text-gray-900">OVALDATA</span>
               </a>
             </Link>
           </div>
@@ -17,11 +16,6 @@ const Navbar = () => {
             <div className="hidden md:ml-6 md:flex md:space-x-8">
               <Link href="/">
                 <a className="border-black text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                  Home
-                </a>
-              </Link>
-              <Link href="/">
-                <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                   Data Bundles
                 </a>
               </Link>
@@ -31,11 +25,6 @@ const Navbar = () => {
                 </a>
               </Link>
             </div>
-          </div>
-          <div className="flex items-center">
-            <button className="bg-black text-white px-4 py-2 rounded-md text-sm font-medium">
-              Sign In
-            </button>
           </div>
         </div>
       </div>
