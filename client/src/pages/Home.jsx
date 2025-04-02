@@ -10,11 +10,10 @@ const Home = () => {
             Stay connected always with our{" "}
             <span className="border-b-2 border-yellow-400">
               affordable data bundles
-            </span>{" "}
-            and AFA registrations.
+            </span>
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-base text-gray-500">
-            Explore our range of flexible non-expiry data bundles which gives you lots of packages to choose from according to your budget. Register for MTN AFA now and get access to amazing monthly and weekly call plans.
+            Explore our range of flexible non-expiry data bundles which gives you lots of packages to choose from according to your budget. Get access to amazing monthly and weekly data plans for all your internet needs.
           </p>
         </div>
 

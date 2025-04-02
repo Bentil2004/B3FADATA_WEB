@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import NetworkPage from "@/pages/NetworkPage";
+import Support from "@/pages/Support";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
@@ -16,6 +17,7 @@ function Router() {
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/network/:id" component={NetworkPage} />
+          <Route path="/support" component={Support} />
           <Route component={NotFound} />
         </Switch>
       </div>

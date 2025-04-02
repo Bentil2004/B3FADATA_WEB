@@ -14,15 +14,11 @@ const Navbar = () => {
           </div>
           <div className="flex items-center">
             <div className="hidden md:ml-6 md:flex md:space-x-8">
-              <Link href="/">
-                <a className="border-black text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                  Data Bundles
-                </a>
+              <Link href="/" className="border-black text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                Data Bundles
               </Link>
-              <Link href="/">
-                <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                  Support
-                </a>
+              <Link href="/support" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                Support
               </Link>
             </div>
           </div>
