@@ -38,23 +38,23 @@ const NetworkPage = () => {
     switch (network.id) {
       case "mtn":
         return (
-          <div className="border-2 border-black rounded-full p-2 inline-flex items-center justify-center mr-4">
-            <span className="text-lg font-bold text-black">MTN</span>
+          <div className="border-2 border-yellow-400 rounded-full p-2 inline-flex items-center justify-center mr-4">
+            <span className="text-lg font-bold text-yellow-400">MTN</span>
           </div>
         );
       case "at":
         return (
           <div className="inline-flex items-center justify-center mr-4">
             <span className="text-4xl">
-              <span className="text-[#FE5000] font-bold">a</span>
-              <span className="text-[#0044AA] font-bold">t</span>
+              <span className="text-[#FE5000] font-bold">A</span>
+              <span className="text-[#0044AA] font-bold">T</span>
             </span>
           </div>
         );
-      case "telecell":
+      case "telecel":
         return (
           <div className="inline-flex items-center justify-center mr-4">
-            <span className="text-3xl text-[#E62B1E] font-bold">telecell</span>
+            <span className="text-3xl text-[#E62B1E] font-bold">Telecel</span>
           </div>
         );
       default:
@@ -98,7 +98,7 @@ const NetworkPage = () => {
           <CardHeader className="px-4 py-5 sm:px-6 flex items-center border-b border-gray-200">
             {renderNetworkLogo()}
             <h2 className="text-2xl font-bold text-gray-900">
-              {network.name} Data
+              {network.name} Data Bundles
             </h2>
           </CardHeader>
           <CardContent className="px-4 py-5 sm:px-6">
@@ -107,7 +107,7 @@ const NetworkPage = () => {
                 ? "Explore our range of flexible non-expiry data bundles which gives you lots of packages to choose from according to your budget. Register for MTN now and get access to amazing monthly and weekly call plans."
                 : network.id === "at"
                 ? "Choose from our wide range of AT data bundles at affordable prices. Life is simple with AT network."
-                : "Get the best value with Telecell data packages. Fast and reliable internet connection for all your needs."
+                : "Get the best value with Telecel data packages. Fast and reliable internet connection for all your needs."
               }
             </p>
 

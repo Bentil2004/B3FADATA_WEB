@@ -9,7 +9,8 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center cursor-pointer">
-              <div className="h-8 w-8 bg-black rounded-full"></div>
+              {/* <div className="h-6 w-10 bg-blue-400 rounded-full"></div> */}
+              <div className=" text-black font-bold  text-3xl ml-2">BƐFADATA</div>
             </Link>
           </div>
           <div className="flex items-center">

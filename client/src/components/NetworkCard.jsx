@@ -8,21 +8,21 @@ const NetworkCard = ({ network }) => {
     switch (id) {
       case "mtn":
         return (
-          <div className="border-4 border-black rounded-full p-3 inline-flex items-center justify-center">
-            <span className="text-2xl font-bold text-black">MTN</span>
+          <div className="border-4 border-yellow-400 rounded-full p-3 inline-flex items-center justify-center">
+            <span className="text-2xl font-bold text-yellow-400">MTN</span>
           </div>
         );
       case "at":
         return (
           <span className="text-5xl">
-            <span className="text-[#E62B1E] font-bold">a</span>
+            <span className="text-[#FE5000] font-bold">a</span>
             <span className="text-[#0044AA] font-bold">t</span>
           </span>
         );
-      case "telecell":
+      case "telecel":
         return (
           <div className="flex items-center">
-            <span className="text-2xl text-[#E62B1E] font-bold">telecell</span>
+            <span className="text-2xl text-[#E62B1E] font-bold">Telecel</span>
           </div>
         );
       default:
@@ -39,7 +39,7 @@ const NetworkCard = ({ network }) => {
           </div>
           <div className="mt-4">
             <p className="text-center text-lg font-medium text-gray-700">
-              {slogan || "data"}
+              {name || "data packages"}
             </p>
           </div>
         </CardContent>
