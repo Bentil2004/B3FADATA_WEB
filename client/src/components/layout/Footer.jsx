@@ -9,12 +9,12 @@ const Footer = () => {
             </a>
           </div>
           <div className="px-5 py-2">
-            <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+            <a href="/" className="text-base text-gray-500 hover:text-gray-900">
               Data Packages
             </a>
           </div>
           <div className="px-5 py-2">
-            <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+            <a href="/support" className="text-base text-gray-500 hover:text-gray-900">
               Support
             </a>
           </div>
