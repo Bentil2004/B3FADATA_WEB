@@ -10,7 +10,7 @@ const Support = () => {
       description: "Speak directly with our customer support team",
       icon: <Phone className="h-8 w-8 text-blue-600" />,
       action: "Call Now",
-      actionFn: () => window.location.href = "tel:+1234567890", // Replace with actual phone number
+      actionFn: () => window.location.href = "tel:+233547259343", 
       color: "bg-blue-50"
     },
     {
@@ -19,7 +19,7 @@ const Support = () => {
       description: "Chat with us on WhatsApp for quick assistance",
       icon: <MessageCircle className="h-8 w-8 text-green-600" />,
       action: "Open WhatsApp",
-      actionFn: () => window.open("https://wa.me/1234567890", "_blank"), // Replace with actual WhatsApp number
+      actionFn: () => window.open("https://wa.me/257058564", "_blank"),
       color: "bg-green-50"
     }
   ];
